@@ -46,7 +46,9 @@ mysh_bootstrap(){
   for f in ~/.mysh/setup/common/*;
   do
     case "${f}" in
-      *".sh") source "${f}";;
+      *".sh")
+        source "${f}"
+      ;;
     esac
   done
 

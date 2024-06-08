@@ -1,7 +1,8 @@
 services:
-  space:
+  wagon:
     build: .
+    hostname: wagon
     platform: linux/arm64
     tty: true
     volumes:
-      - ./.blackhole:/home/debris/blackhole
+      - ./.door:/home/you/door

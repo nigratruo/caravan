@@ -19,9 +19,10 @@
   },
   "scripts": {
     "docker": "docker compose up -d",
+    "down": "docker compose down",
     "build": "docker compose up -d --build",
-    "space": "yarn docker && docker compose exec space /bin/zsh",
-    "root": "yarn docker && docker compose exec -u 0 space /bin/zsh",
+    "wagon": "yarn docker && docker compose exec wagon /usr/bin/zsh",
+    "root": "yarn docker && docker compose exec -u 0 wagon /usr/bin/zsh",
     "install": "yarn workspace console dist && yarn docker"
   },
   "dependencies": {

@@ -11,8 +11,8 @@
 That's it.
 
 ```shell
-# Will do everything and enters into your space. Will take 10-20 mins.
-yarn space
+# Will do everything and enters into your wagon. Will take 10-20 mins.
+yarn wagon
 
 # Will do only build.
 yarn build
@@ -79,14 +79,19 @@ stack setup
 stack ghci # console
 ```
 
+### Scala
+
+Scala with `cs`
+
+https://get-coursier.io/
+
 
 ## User
 
-Your main user is `debris`.  
-debris has most root credentials and has access to /root
+Default user has most root credentials and has access to /root
 
 
-Needs root?
+### You need root?
 
 ```
 yarn root
