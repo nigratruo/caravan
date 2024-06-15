@@ -49,7 +49,7 @@
     }
   },
   "dependencies": {
-    "@oclif/core": "^3",
+    "@oclif/core": "^4",
     "@oclif/plugin-help": "^6",
     "@oclif/plugin-plugins": "^4"
   },
